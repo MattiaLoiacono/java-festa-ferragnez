@@ -13,10 +13,9 @@ class CheckGuest {
 		boolean ok = false;
 		int i = 0;
 		
-		 while (i < Guest.length) {
+		 while ( i < Guest.length && !ok ) {
 			 if ( nome.equals(Guest[i]) ) {
 					ok = true;
-					break;
 				}	
 			 i++;
 		 }
